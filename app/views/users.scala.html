@@ -1,0 +1,18 @@
+@(users: List[models.User])
+
+@main("List users") {
+	<ul>
+		@for(value <- users) {
+			<li>@value.getName() - @value.getAge()</li>
+			<li>
+				@helper.form( action = routes.UserController.remove(value.getId())) {
+					<button type="submit">Delete</button>
+				}
+			</li>
+			
+			<li>
+				<a href='@routes.UserController.findOne(value.getId())'>Show</a>
+			</li>
+		}
+	</ul>
+}

@@ -1,0 +1,17 @@
+@(name: String)(company: String)(obj : List[String])(userF: Form[User])
+
+@main("Hello Router") {
+	<h1>Hello @name from My view @company</h1>
+	
+	<ul>
+		@for(value <- obj) {
+			<li>@value</li>
+		}
+	</ul>
+}
+
+@helper.form(action = routes.HelloController.form()) {
+	@helper.inputText(userF("name"))
+	@helper.inputText(userF("age"))
+	<button type="submit">Create</button>
+}

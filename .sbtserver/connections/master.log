@@ -1,0 +1,34 @@
+New log file opened at Mon Dec 05 01:38:03 BRST 2016 by 4204@DESKTOP-LVI214U
+Taking next connection to: 59965
+New client attempting to connect on port: 59966-59965
+  Address = /192.168.56.1:59965
+This client on port 59966 has uuid 60297381-f165-46c8-a55e-84e67e77e19b configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-60297381-f165-46c8-a55e-84e67e77e19b
+Taking next connection to: 59965
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 59965
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 59965
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 59965
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 59965
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 59965
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 59965
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 59965
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 4204@DESKTOP-LVI214U logs at Mon Dec 05 02:02:04 BRST 2016, goodbye.
